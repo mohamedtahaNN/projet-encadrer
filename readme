@@ -1,0 +1,52 @@
+Description 
+sauvegarderProduits :
+Cette fonction sauvegarde les produits dans un fichier. Elle prend en entrée un tableau de produits, le nombre de produits dans le tableau et le nom du fichier de sauvegarde. Elle ouvre le fichier en mode écriture, écrit chaque produit dans le fichier et le ferme après.
+chargerProduits :
+Cette fonction charge les produits à partir d'un fichier. Elle prend en entrée un tableau de produits, un pointeur vers le nombre de produits et le nom du fichier à charger. Elle ouvre le fichier en mode lecture, lit les produits stockés dans le fichier, met à jour le tableau de produits et ferme le fichier.
+
+compareProduits :
+Cette fonction est utilisée pour comparer deux produits par leur nom. Elle prend deux pointeurs vers des produits en entrée et utilise strcmp pour comparer les noms. Elle renvoie un entier négatif, positif ou zéro en fonction de la comparaison.
+triProduitsParNom :
+Cette fonction trie les produits par nom en utilisant la fonction qsort. Elle prend en entrée un tableau de produits et le nombre de produits. Si le tableau est vide, elle affiche un message d'avertissement. Sinon, elle trie les produits en utilisant qsort.
+
+ajoutproduit :
+Cette fonction permet d'ajouter un nouveau produit à la liste. Elle prend en entrée un tableau de produits et un pointeur vers le nombre de produits. Elle demande à l'utilisateur d'entrer les détails du nouveau produit et les stocke dans le tableau.
+modifierProduit :
+Cette fonction permet de modifier un produit existant dans la liste. Elle prend en entrée un tableau de produits et le nombre de produits. Elle demande à l'utilisateur le nom du produit à modifier, puis les nouvelles informations pour ce produit.
+effacerproduit :
+Cette fonction permet de supprimer un produit de la liste. Elle prend en entrée un tableau de produits et un pointeur vers le nombre de produits. Elle demande à l'utilisateur le nom du produit à supprimer, puis le supprime du tableau.
+
+chercherProduit :
+Cette fonction permet de rechercher un produit par son nom dans la liste. Elle prend en entrée un tableau de produits et le nombre de produits. Elle demande à l'utilisateur le nom du produit à rechercher, puis affiche les informations du produit s'il est trouvé.
+
+main :
+Cette fonction contient la logique principale du programme. Elle affiche un menu à l'utilisateur et exécute la fonction correspondante en fonction du choix de l'utilisateur. Le menu offre des options pour gérer les produits et quitter le programme.
+
+resumer!!!!
+
+sauvegarderProduits :
+Sauvegarde les produits dans un fichier spécifié.
+
+chargerProduits :
+Charge les produits à partir d'un fichier spécifié.
+
+compareProduits :
+Compare deux produits par leur nom pour le tri.
+
+triProduitsParNom :
+Trie les produits par leur nom.
+
+ajoutproduit :
+Ajoute un nouveau produit à la liste.
+
+modifierProduit :
+Modifie un produit existant dans la liste.
+
+effacerproduit :
+Supprime un produit de la liste.
+
+chercherProduit :
+Recherche un produit par son nom dans la liste.
+
+main :
+Gère l'interface utilisateur et l'exécution des fonctionnalités du programme.
